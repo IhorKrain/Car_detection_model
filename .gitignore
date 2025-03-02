@@ -1,0 +1,16 @@
+
+.venv/
+.env
+
+# Игнорировать файлы IDE
+.idea/
+
+# Игнорировать кэш Python и временные файлы
+__pycache__/
+*.pyc
+
+# Локальные настройки и секреты
+*.env            # Все .env файлы в любых папках
+
+/telegram_bot/.env
+telegram_bot/.env
