@@ -27,7 +27,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Load YOLOv8 model (replace with your custom model path)
-model = YOLO("/Car_detection_model/yolov8n.pt")  # Example: "runs/train/exp/weights/best.pt"
+model = YOLO("/car_detection_model/best.pt")  # Example: "runs/train/exp/weights/best.pt"
 
 # Define class IDs for detection (adjust based on your model)
 CAR_CLASSES = [2, 5, 7]  # Default IDs for car, bus, truck in COCO dataset
